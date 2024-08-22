@@ -36,7 +36,7 @@ class _CanvasScreenState extends State<CanvasScreen>
     Future.delayed(const Duration(milliseconds: 100), () {
       if (mounted) {
         particles = List.generate(
-          3000,
+          1000,
           (index) => Particle.random(
             canvasSize,
             massConstant,

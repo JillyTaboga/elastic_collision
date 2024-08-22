@@ -23,4 +23,6 @@ The elastic collision formula proved to be a significant challenge, being resolv
 The difference in performance in applying the quadtree to store particle positions and iterate over them to apply collisions was essential for over 3000 particles, jumping from 8fps to 40fps.
 A hash-style set was also applied to avoid duplicate calculations between particles.
 
+[Sample](https://elasticcollision.web.app/)
+
 ![Screenshot](screenelasticcollision.png)

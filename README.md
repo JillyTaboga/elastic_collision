@@ -20,7 +20,9 @@ Para aprimorar a eficiência foi implementada uma classe [Quadtree](.lib/quadtre
 ## Conclusão
 
 A formula da colisão elástica se mostrou um grande desafio, sendo resolvido somente com ajuda do professor Dan Shiffman e mesmo assim existe uma variação pequena na quantidade de energia do sistema devido aos arredondamentos do dart.
-A difernça de performance de aplicação do quadtree para armazenar os posicionamentos das partículas e ser percorrido para aplicar as colisões entre partículas foi excencial acima de 3000 partículas, saltando de 8fps para 40fps.
+A difernça de performance de aplicação do quadtree para armazenar os posicionamentos das partículas e ser percorrido para aplicar as colisões entre partículas foi excencial acima de 3000 partículas, saltando de 8fps para 40fps com a aplicação rodando em modo desktop windows.
 Também foi aplicado um conjunto ao estilho hash para evitar a duplicidade de cálculo entre as partículas.
+
+[Exemplo](https://elasticcollision.web.app/)
 
 ![Screenshot](screenelasticcollision.png)
